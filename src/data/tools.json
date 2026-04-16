@@ -1,0 +1,581 @@
+{
+  "categories": [
+    {
+      "id": "creative",
+      "name": "Creative & Content Generation",
+      "description": "AI tools for content creation, design, and media production",
+      "subcategories": [
+        {
+          "id": "image-generation",
+          "name": "Image Generation",
+          "description": "Create stunning images from text descriptions"
+        },
+        {
+          "id": "video-creation",
+          "name": "Video Creation & Editing",
+          "description": "Generate and edit videos with AI assistance"
+        },
+        {
+          "id": "music-generation",
+          "name": "Music Generation",
+          "description": "Create original music and soundtracks"
+        },
+        {
+          "id": "writing",
+          "name": "Writing & Copywriting",
+          "description": "Generate blogs, scripts, ads, and more"
+        },
+        {
+          "id": "storytelling",
+          "name": "Storytelling & Scripts",
+          "description": "Create stories, scripts, and narratives"
+        },
+        {
+          "id": "meme-generation",
+          "name": "Meme Generation",
+          "description": "Create funny memes with AI"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity & Automation",
+      "description": "Tools to boost productivity and automate tasks",
+      "subcategories": [
+        {
+          "id": "note-taking",
+          "name": "Note Taking & Organization",
+          "description": "Smart note-taking with AI assistance"
+        },
+        {
+          "id": "email-assistant",
+          "name": "Email & Communication",
+          "description": "Write and manage emails efficiently"
+        },
+        {
+          "id": "task-management",
+          "name": "Task Management",
+          "description": "Organize and prioritize tasks with AI"
+        },
+        {
+          "id": "document-processing",
+          "name": "Document Processing",
+          "description": "Process and analyze documents"
+        }
+      ]
+    },
+    {
+      "id": "code-development",
+      "name": "Code & Development",
+      "description": "AI tools for programmers and developers",
+      "subcategories": [
+        {
+          "id": "code-generation",
+          "name": "Code Generation",
+          "description": "Generate code from descriptions"
+        },
+        {
+          "id": "debugging",
+          "name": "Debugging & Error Detection",
+          "description": "Find and fix code errors"
+        },
+        {
+          "id": "documentation",
+          "name": "Documentation",
+          "description": "Generate code documentation"
+        },
+        {
+          "id": "code-review",
+          "name": "Code Review & Quality",
+          "description": "Review and improve code quality"
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Data & Analytics",
+      "description": "Tools for data analysis and insights",
+      "subcategories": [
+        {
+          "id": "data-analysis",
+          "name": "Data Analysis",
+          "description": "Analyze and visualize data"
+        },
+        {
+          "id": "business-intelligence",
+          "name": "Business Intelligence",
+          "description": "Get insights from business data"
+        },
+        {
+          "id": "market-research",
+          "name": "Market Research",
+          "description": "Conduct market and trend research"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "description": "AI tools for students and educators",
+      "subcategories": [
+        {
+          "id": "learning-assistant",
+          "name": "Learning Assistant",
+          "description": "AI tutoring and learning help"
+        },
+        {
+          "id": "research",
+          "name": "Research & Writing",
+          "description": "Research papers and academic writing"
+        },
+        {
+          "id": "exam-prep",
+          "name": "Exam Preparation",
+          "description": "Prepare for exams with AI"
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Business & Marketing",
+      "description": "Tools for business growth and marketing",
+      "subcategories": [
+        {
+          "id": "content-marketing",
+          "name": "Content Marketing",
+          "description": "Create marketing content"
+        },
+        {
+          "id": "social-media",
+          "name": "Social Media Management",
+          "description": "Manage social media smartly"
+        },
+        {
+          "id": "seo",
+          "name": "SEO & Analytics",
+          "description": "Optimize for search engines"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "category": "creative",
+      "subcategory": "image-generation",
+      "image": "https://via.placeholder.com/300x200?text=Midjourney",
+      "description": "AI art generator creating stunning high-quality images from text prompts",
+      "fullDescription": "Midjourney is a generative AI program that creates images from natural language descriptions. It uses Discord-based commands to generate artistic imagery. The tool is known for producing high-quality, creative, and diverse images across various art styles.",
+      "useCase": "Creating artwork, concept art, design mockups, marketing graphics, and artistic illustrations",
+      "features": [
+        "Text-to-image generation",
+        "Multiple art styles",
+        "Upscaling and refinement",
+        "Variation generation",
+        "Discord integration"
+      ],
+      "pricing": "Paid",
+      "website": "https://www.midjourney.com"
+    },
+    {
+      "id": "dall-e",
+      "name": "DALL-E 3",
+      "category": "creative",
+      "subcategory": "image-generation",
+      "image": "https://via.placeholder.com/300x200?text=DALL-E+3",
+      "description": "OpenAI's advanced image generation model creating photorealistic and artistic images",
+      "fullDescription": "DALL-E 3 is OpenAI's latest image generation model that creates highly detailed and accurate images from natural language descriptions. It understands nuance and detail, generating high-quality images that match descriptions better than ever.",
+      "useCase": "Marketing materials, product visualization, digital art, design concepts",
+      "features": [
+        "Advanced prompt understanding",
+        "Photorealistic and artistic modes",
+        "Precise composition control",
+        "Inpainting and editing",
+        "Web interface"
+      ],
+      "pricing": "Paid",
+      "website": "https://openai.com/dall-e-3"
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "category": "creative",
+      "subcategory": "image-generation",
+      "image": "https://via.placeholder.com/300x200?text=Stable+Diffusion",
+      "description": "Open-source AI image generator creating images from text with high quality results",
+      "fullDescription": "Stable Diffusion is a text-to-image generation model that is open-source and runs on consumer-grade GPUs. It provides users with creative control and can be customized with various models and plugins.",
+      "useCase": "Concept art, game assets, UI mockups, NFT generation, creative illustrations",
+      "features": [
+        "Open-source and free",
+        "Local installation possible",
+        "Multiple model variations",
+        "ControlNet for precise control",
+        "Inpainting and outpainting"
+      ],
+      "pricing": "Free",
+      "website": "https://stablediffusionweb.com"
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "category": "creative",
+      "subcategory": "video-creation",
+      "image": "https://via.placeholder.com/300x200?text=Runway",
+      "description": "AI-powered video editing and generation platform making content creation easy",
+      "fullDescription": "Runway ML is an AI-powered platform for video generation and editing. It offers tools for creating videos from text, background removal, motion transfer, and more, all with an intuitive interface.",
+      "useCase": "Video content creation, marketing videos, social media content, video editing",
+      "features": [
+        "Text-to-video generation",
+        "Background removal",
+        "Green screen replacement",
+        "Object removal",
+        "Motion blur and effects"
+      ],
+      "pricing": "Freemium",
+      "website": "https://runwayml.com"
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "category": "creative",
+      "subcategory": "video-creation",
+      "image": "https://via.placeholder.com/300x200?text=Synthesia",
+      "description": "AI video generation platform creating professional videos from text scripts",
+      "fullDescription": "Synthesia is an AI video creation platform that allows users to create professional videos from text. It uses AI avatars that can speak different languages and is perfect for creating educational and training videos.",
+      "useCase": "Training videos, educational content, marketing videos, corporate communication",
+      "features": [
+        "AI avatar videos",
+        "Multi-language support",
+        "Script-to-video generation",
+        "Professional templates",
+        "Screen recording integration"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.synthesia.io"
+    },
+    {
+      "id": "jukebox",
+      "name": "Jukebox",
+      "category": "creative",
+      "subcategory": "music-generation",
+      "image": "https://via.placeholder.com/300x200?text=Jukebox",
+      "description": "OpenAI's music generation AI creating original songs and melodies",
+      "fullDescription": "Jukebox is an AI model developed by OpenAI that can generate music in a variety of genres and styles. It can continue musical pieces and generate new compositions from scratch.",
+      "useCase": "Background music, soundtrack creation, creative exploration, game audio",
+      "features": [
+        "Multiple genre support",
+        "Customizable parameters",
+        "Long-form generation",
+        "Style mixing",
+        "High-quality audio output"
+      ],
+      "pricing": "Free",
+      "website": "https://openai.com/research/jukebox"
+    },
+    {
+      "id": "soundraw",
+      "name": "Soundraw",
+      "category": "creative",
+      "subcategory": "music-generation",
+      "image": "https://via.placeholder.com/300x200?text=Soundraw",
+      "description": "AI music generator creating royalty-free music tracks in seconds",
+      "fullDescription": "Soundraw is an AI music generation platform that creates original, royalty-free music. Users can specify mood, length, and instrumentation to generate custom tracks.",
+      "useCase": "YouTube videos, podcasts, streaming content, game soundtracks, advertisements",
+      "features": [
+        "Royalty-free music",
+        "Customizable mood and style",
+        "Quick generation",
+        "Unlimited downloads",
+        "Commercial use allowed"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.soundraw.io"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "productivity",
+      "subcategory": "writing",
+      "image": "https://via.placeholder.com/300x200?text=ChatGPT",
+      "description": "Advanced conversational AI assistant for writing, coding, and problem-solving",
+      "fullDescription": "ChatGPT is an advanced AI language model developed by OpenAI. It can generate human-like text, assist with writing, answer questions, debug code, and much more through natural conversation.",
+      "useCase": "Content writing, customer support, brainstorming, coding assistance, general Q&A",
+      "features": [
+        "Conversational interface",
+        "Multiple languages",
+        "Code generation and debugging",
+        "Long context memory",
+        "Custom GPTs"
+      ],
+      "pricing": "Freemium",
+      "website": "https://chat.openai.com"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "category": "productivity",
+      "subcategory": "writing",
+      "image": "https://via.placeholder.com/300x200?text=Cohere",
+      "description": "API and platform for text generation and natural language understanding",
+      "fullDescription": "Cohere provides API access to powerful language models for text generation, classification, and semantic search. It's designed for developers and businesses building AI applications.",
+      "useCase": "Content generation, customer service automation, text classification, semantic search",
+      "features": [
+        "Multiple language models",
+        "Fine-tuning capabilities",
+        "API access",
+        "Semantic search",
+        "Classification models"
+      ],
+      "pricing": "Freemium",
+      "website": "https://cohere.com"
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "category": "productivity",
+      "subcategory": "writing",
+      "image": "https://via.placeholder.com/300x200?text=Jasper",
+      "description": "AI writing assistant for marketing copy, blogs, and content creation",
+      "fullDescription": "Jasper is an AI-powered writing tool designed specifically for marketing and content creation. It generates high-quality copy for ads, blogs, emails, and social media leveraging advanced AI models.",
+      "useCase": "Marketing copy, blog posts, email campaigns, social media content, product descriptions",
+      "features": [
+        "Content templates",
+        "SEO optimization",
+        "Brand voice customization",
+        "AI chat integration",
+        "Team collaboration"
+      ],
+      "pricing": "Paid",
+      "website": "https://www.jasper.ai"
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "category": "productivity",
+      "subcategory": "writing",
+      "image": "https://via.placeholder.com/300x200?text=Copy.ai",
+      "description": "Free AI writing tool generating marketing copy and content quickly",
+      "fullDescription": "Copy.ai is a free AI writing assistant that helps create marketing copy, social media posts, and other content. It's user-friendly and doesn't require a credit card to start.",
+      "useCase": "Social media posts, product descriptions, ad copy, email writing, blog outlines",
+      "features": [
+        "100+ templates",
+        "Fast generation",
+        "Free plan available",
+        "Easy to use",
+        "API access available"
+      ],
+      "pricing": "Free",
+      "website": "https://www.copy.ai"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "category": "code-development",
+      "subcategory": "code-generation",
+      "image": "https://via.placeholder.com/300x200?text=GitHub+Copilot",
+      "description": "AI-powered code completion and generation tool for developers",
+      "fullDescription": "GitHub Copilot is an AI coding assistant that helps developers write code faster. It suggests entire functions, handles repetitive coding tasks, and supports multiple programming languages.",
+      "useCase": "Code writing, debugging, documentation generation, test writing",
+      "features": [
+        "Context-aware suggestions",
+        "Multiple language support",
+        "Test generation",
+        "Documentation generation",
+        "Integration with VS Code"
+      ],
+      "pricing": "Paid",
+      "website": "https://github.com/features/copilot"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "category": "code-development",
+      "subcategory": "code-generation",
+      "image": "https://via.placeholder.com/300x200?text=Tabnine",
+      "description": "AI code completion tool that learns your coding patterns and style",
+      "fullDescription": "Tabnine is an AI-powered code completion tool that learns from your code and suggests completions based on your coding patterns. It works with most popular IDEs and languages.",
+      "useCase": "Faster coding, reducing boilerplate, learning best practices, code completion",
+      "features": [
+        "Local code learning",
+        "Multi-language support",
+        "IDE integration",
+        "Enterprise features",
+        "Privacy-focused"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.tabnine.com"
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "category": "code-development",
+      "subcategory": "code-generation",
+      "image": "https://via.placeholder.com/300x200?text=Codeium",
+      "description": "Free AI code completion and search tool for developers",
+      "fullDescription": "Codeium is a free AI code completion tool that provides fast, accurate completions across multiple languages. It's lightweight and works well in most IDEs.",
+      "useCase": "Code completion, faster development, learning code patterns",
+      "features": [
+        "Free forever",
+        "Fast completions",
+        "Multi-language support",
+        "IDE integration",
+        "No account needed"
+      ],
+      "pricing": "Free",
+      "website": "https://codeium.com"
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "category": "productivity",
+      "subcategory": "writing",
+      "image": "https://via.placeholder.com/300x200?text=Grammarly",
+      "description": "AI writing assistant checking grammar, tone, and clarity in real-time",
+      "fullDescription": "Grammarly is an AI-powered writing assistant that checks grammar, spelling, punctuation, and tone. It helps users write better, more confident communication across multiple platforms.",
+      "useCase": "Email writing, document editing, social media posts, professional communication",
+      "features": [
+        "Real-time suggestions",
+        "Tone detection",
+        "Plagiarism detection",
+        "Style guide integration",
+        "Browser extension"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.grammarly.com"
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "category": "productivity",
+      "subcategory": "note-taking",
+      "image": "https://via.placeholder.com/300x200?text=Notion+AI",
+      "description": "AI-powered features integrated into Notion workspace management",
+      "fullDescription": "Notion AI brings generative AI capabilities directly into Notion workspaces. Users can generate content, summarize pages, brainstorm ideas, and more without leaving Notion.",
+      "useCase": "Note organization, content generation, research assistance, project planning",
+      "features": [
+        "Content generation",
+        "Summarization",
+        "Brainstorming",
+        "Help writing",
+        "Tone adjustment"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.notion.so"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "category": "productivity",
+      "subcategory": "note-taking",
+      "image": "https://via.placeholder.com/300x200?text=Obsidian",
+      "description": "Privacy-focused note-taking app with network visualization and AI integration",
+      "fullDescription": "Obsidian is a powerful knowledge management tool that stores notes locally on your device. It features a unique graph view for visualizing connections between notes and supports plugins for AI integration.",
+      "useCase": "Note-taking, knowledge management, research organization, personal wiki",
+      "features": [
+        "Local storage",
+        "Graph view",
+        "Markdown support",
+        "Plugin ecosystem",
+        "Offline access"
+      ],
+      "pricing": "Freemium",
+      "website": "https://obsidian.md"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "creative",
+      "subcategory": "video-creation",
+      "image": "https://via.placeholder.com/300x200?text=ElevenLabs",
+      "description": "AI voice generation creating natural-sounding text-to-speech audio",
+      "fullDescription": "ElevenLabs provides advanced AI voice generation technology that creates natural-sounding synthetic voices. It supports multiple languages and voice styles for various applications.",
+      "useCase": "Audiobooks, video voiceovers, podcast production, Game audio, accessibility features",
+      "features": [
+        "29+ languages",
+        "Voice cloning",
+        "Natural intonation",
+        "API access",
+        "Real-time generation"
+      ],
+      "pricing": "Freemium",
+      "website": "https://elevenlabs.io"
+    },
+    {
+      "id": "google-bard",
+      "name": "Google Gemini",
+      "category": "productivity",
+      "subcategory": "writing",
+      "image": "https://via.placeholder.com/300x200?text=Google+Gemini",
+      "description": "Google's advanced AI assistant for creative and analytical tasks",
+      "fullDescription": "Google Gemini is Google's latest AI assistant that can help with writing, analysis, math, coding, and creative tasks. It's available through web interface and has strong integration with Google services.",
+      "useCase": "Content creation, coding help, data analysis, creative writing, research assistance",
+      "features": [
+        "Multimodal input",
+        "Code generation",
+        "Image analysis",
+        "Real-time information",
+        "Integration with Google services"
+      ],
+      "pricing": "Free",
+      "website": "https://gemini.google.com"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity AI",
+      "category": "education",
+      "subcategory": "learning-assistant",
+      "image": "https://via.placeholder.com/300x200?text=Perplexity+AI",
+      "description": "AI search engine that answers questions with cited sources",
+      "fullDescription": "Perplexity AI is an AI-powered search engine that understands natural language questions and provides comprehensive answers with citations. It combines information retrieval with generative AI.",
+      "useCase": "Research, learning, fact-checking, question answering, knowledge discovery",
+      "features": [
+        "Cited sources",
+        "Natural language input",
+        "Real-time search",
+        "Follow-up questions",
+        "Multiple search modes"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.perplexity.ai"
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "category": "education",
+      "subcategory": "research",
+      "image": "https://via.placeholder.com/300x200?text=QuillBot",
+      "description": "AI paraphrasing tool for rewriting and improving written content",
+      "fullDescription": "QuillBot is an AI writing assistant that helps paraphrase, check plagiarism, and improve writing. It's particularly useful for students and academic writers.",
+      "useCase": "Academic writing, paraphrasing, plagiarism checking, vocabulary improvement",
+      "features": [
+        "Multiple paraphrase modes",
+        "Plagiarism checker",
+        "Citation generator",
+        "Grammar checker",
+        "Vocabulary enhancement"
+      ],
+      "pricing": "Freemium",
+      "website": "https://quillbot.com"
+    },
+    {
+      "id": "canva",
+      "name": "Canva Magic Design",
+      "category": "creative",
+      "subcategory": "image-generation",
+      "image": "https://via.placeholder.com/300x200?text=Canva",
+      "description": "AI-powered design tool with Magic Design for quick professional designs",
+      "fullDescription": "Canva is a design platform that uses AI Magic Design feature to generate professional designs instantly. Users can customize templates and create social media content, presentations, and more.",
+      "useCase": "Social media graphics, presentations, marketing materials, posters, invitations",
+      "features": [
+        "Drag-and-drop editor",
+        "Magic Design AI",
+        "Thousands of templates",
+        "Collaboration features",
+        "Brand kit"
+      ],
+      "pricing": "Freemium",
+      "website": "https://www.canva.com"
+    }
+  ]
+}
