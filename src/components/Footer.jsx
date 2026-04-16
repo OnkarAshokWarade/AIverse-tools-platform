@@ -90,7 +90,7 @@ const Footer = ({ isDarkMode }) => {
         {/* Bottom */}
         <div className={`border-t ${isDarkMode ? 'border-slate-800' : 'border-gray-200'} pt-8 text-center`}>
           <p className={`${isDarkMode ? 'text-gray-500' : 'text-gray-600'} text-sm`}>
-           © 2026 Alverse.
+           © 2026 Alverse. All rights reserved.
 Discover the best AI tools for productivity and creativity.
 Built with ❤️ by OnkarWarade
           </p>
